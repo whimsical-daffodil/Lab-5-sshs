@@ -1,4 +1,4 @@
-public class RugIII {
+public class RugIIII {
     
     public static void main (String args[]){
         print2DArray(diagonal());
@@ -9,11 +9,12 @@ public class RugIII {
          String[][] array = new String[11][11];
          for (int row = 0; row < array.length; row++) {
              for (int col = 0; col < array[row].length; col++) {
-                 if((row + col) % 2 == 0){
+                 if(row % 2 == 1 && col % 2 == 1){
                     array[row][col] = "x";
-                 } else{
-                    array[row][col]= "y";
+                 } else {
+                    array[row][col] = "y";
                  }
+                 
                 
              }
          }
