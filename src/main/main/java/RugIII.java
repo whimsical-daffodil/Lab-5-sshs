@@ -10,9 +10,9 @@ public class RugIII {
          for (int row = 0; row < array.length; row++) {
              for (int col = 0; col < array[row].length; col++) {
                  if((row + col) % 2 == 0){
-                    array[row][col] = "x";
+                    array[row][col] = "🍊";
                  } else{
-                    array[row][col]= "y";
+                    array[row][col]= "🍀";
                  }
                 
              }

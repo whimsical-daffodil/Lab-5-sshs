@@ -8,7 +8,7 @@ public class Rug {
          String[][] array = new String[11][11];
          for (int row = 0; row < array.length; row++) {
              for (int col = 0; col < array[row].length; col++) {
-                 array[row][col] = "x";
+                 array[row][col] = "🍊";
              }
          }
          return array;
